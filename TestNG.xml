@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Loan Department">
+
+        <test name="Regression">
+            <classes>
+                <class name="Section20.packTwo.Annotations"/>
+                <class name="Section20.packTwo.Annotations2">
+
+                </class>
+                        
+                <class name="Section20.packTwo.Annotations2">
+                    <methods>
+                        <exclude name="Cookies2"></exclude>
+                        <exclude name="OpeningBrowser"></exclude>
+                    </methods>
+                </class>
+            </classes>
+        </test>
+    <test name="Smoke">
+        <classes>
+            <class name="Section20.packTwo.Annotations"/>
+            <class name="Section20.packTwo.Annotations2">
+
+            </class>
+
+            <class name="Section20.packTwo.Annotations3">
+                <methods>
+                    <exclude name="Cookies2"></exclude>
+                    <exclude name="OpeningBrowser"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>

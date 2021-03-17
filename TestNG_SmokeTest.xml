@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SmokeTest">
+    <parameter name="URL22" value="www.google.com"/>
+
+    <test name="SmokeTest1">
+        <groups>
+            <run>
+                <include name="smoke"/> <!--we can use include as well-->
+            </run>
+        </groups>
+        <classes>
+
+            <class name="Section20.packTwo.Annotations"/>
+            <!--<class name="Section20.packTwo.Annotations2"/>-->
+            <class name="Section20.packTwo.Annotations3"/>
+
+        </classes>
+    </test>
+
+</suite>
